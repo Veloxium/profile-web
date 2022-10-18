@@ -5,9 +5,7 @@
     height: max-content;
 }
 img.me{
-    max-width: 500px;
-    width: max-content;
-    width: auto;
+    width: 90%;
     position: relative;
     align-items: center;
     top: 50px;

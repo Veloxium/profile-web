@@ -1,7 +1,7 @@
 .bg{
     position: absolute;
     height: 100%;
-    width: 60%;
+    width: 100%;
     top: 760px;
 }
 .about{
@@ -30,6 +30,7 @@
 .col{
     padding:auto;
     justify-content: center;
+    
 }
 .card-title{
     font-weight: 700;
