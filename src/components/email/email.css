@@ -1,0 +1,38 @@
+.email{
+    background-color: #072227;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bar{
+    background-color: #35858B;
+    border-radius: 30px;
+    margin: 0px 100px;
+}
+.img-email{
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+.bar h1{
+    text-align: start;
+    font-weight: 700;
+}
+.teks-email{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f2f2f2;
+}
+.button-email{
+    background-color: #135D6B;
+    position: relative;
+    border-radius: 5px;
+    color: #f2f2f2;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+}
+.button-email:hover{
+    background-color: #fff;
+    color: #135D6B;
+}

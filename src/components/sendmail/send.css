@@ -1,0 +1,140 @@
+.send{
+    background-color: #0B333A;
+}
+
+.name{
+    display: flex;
+}
+#last input{
+    width: 80%;
+    float: right;
+}
+#first input{
+    width: 100%;
+}
+#email input{
+    width: 100%;
+    padding-left: 0px;
+}
+#number input{
+    width: 100%;
+    padding-left: 0px;
+}
+#pesan textarea{
+    width: 100%;
+    height: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    padding-left: 0px;
+    outline: none;
+    background-color: #35858B;
+    color: #f2f2f2;
+    
+}
+.bg-kolom{
+    border: solid 7px;
+    padding: 20px;
+    border-color: #35858B;
+    margin-bottom: 20px;
+}
+
+.kolom h1{
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+
+.kolom label{
+    color: #f2f2f2;
+    margin-top: 5px;
+}
+.kolom input{
+    background-color: #35858B;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #f2f2f2;
+    
+}
+::-ms-input-placeholder{
+    color: #f2f2f292;
+}
+::placeholder{
+    color: #f2f2f292;
+    padding-left: 5px;
+}
+#submit{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 100px;
+    background-color: #35858B;
+}
+#submit:hover{
+    background-color: #f2f2f2;
+    color: #35858B;
+}
+.kolom svg{
+    fill: #35858B;
+    height: 40px;
+    width: auto;  
+    float: right;  
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.kolom{
+ margin-left: auto;
+}
+.email-teks{
+    margin-left: 70px;
+    color: #f2f2f2;
+    font-weight: 700;
+    align-items: flex-start;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.email-teks h2::after{
+    margin-top: 10px;
+    display: block;
+    border-bottom: 7px solid #35858B;
+    width:100%;
+    border-radius: 7px;
+    content: "";
+}
+.email-teks h4::after{
+    margin-top: 10px;
+    display: block;
+    border-bottom: 7px solid #35858B;
+    width:100%;
+    border-radius: 7px;
+    content: "";
+}
+.email-teks p{
+    font-weight: 500;
+}
+.email-teks span{
+    color: #35858B;
+    background-color: #fff;
+    padding: 0px 5px;
+}
+.email-teks h5{
+    float: right;
+    margin-left: auto;
+    margin-bottom: 0px;
+}
+.email-teks .icon{
+    padding-right: 20px;
+    margin-top: 10px;
+    width: 50px;
+    margin-bottom: 5px;
+}
+.icon:hover{
+    fill: #0B333A;
+}

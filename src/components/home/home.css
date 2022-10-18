@@ -1,0 +1,47 @@
+
+.home{
+    background-color:#072227 ;
+    width: 100%;
+    height: max-content;
+}
+img.me{
+    max-width: 500px;
+    width: max-content;
+    width: auto;
+    position: relative;
+    align-items: center;
+    top: 50px;
+    vertical-align: auto;
+    padding-bottom: 50px;
+    
+}
+.tengah{
+    margin-top: 150px;
+}
+.judulkecil{
+    color: #35858B;
+    position: relative;
+}
+h1.judulbesar{
+    font-size: 60px;
+    font-weight: 700;
+    color: #f2f2f2;
+    position: relative;
+}
+p.teks{
+    position: relative;
+    color: #f2f2f2;
+    width: auto;
+}
+.button{
+    position: relative;
+    background: #35858B;
+    border-radius: 5px;
+    color: #f2f2f2;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+}
+.button:hover{
+    background-color: #fff;
+    color: #35858B;
+}

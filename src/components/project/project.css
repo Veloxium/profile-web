@@ -1,0 +1,40 @@
+.project{
+    background-color: #072227;
+}
+.judul-project{
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 100px;
+}
+.button-card{
+    background-color: #35858B;
+    color: #f2f2f2;
+}
+.button-card:hover{
+    background-color: #fff;
+    color: #35858B;
+}
+.project-card{
+    margin-top: 30px;
+}
+.card-col{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card.featured{
+    max-width: 300px;
+    align-items: center;
+    place-content: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+img.dots{
+   display: block;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+}

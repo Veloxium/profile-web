@@ -1,0 +1,84 @@
+.bg{
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    top: 760px;
+}
+.about{
+    background-color: #072227;    
+}
+.judul{
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    color: #f2f2f2;
+    padding-top: 100px;
+    padding-left: 111px;
+    position: relative;
+    float:inline-start;
+}
+.card-img{
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    fill: #f2f2f2 ;
+}
+.card{
+    background-color: #135D6B!important;
+    margin-top: 10px;
+    justify-content: center;
+}
+.col{
+    padding:auto;
+    justify-content: center;
+}
+.card-title{
+    font-weight: 700;
+    color: #f2f2f2;
+}
+.card-text{
+    color: #f2f2f2;
+}
+.row{
+    justify-content: center;
+}
+.exp span{
+    font-size: 120px;
+    font-weight: 700;
+}
+.exp{
+    text-align: center;
+    color: #f2f2f2;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    background-color:  #0B333A;
+ 
+}
+.button-know{
+    margin-top: 10px;
+    overflow-x: center;
+    background: #35858B;
+    border-radius: 5px;
+    color: #f2f2f2;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+}
+.button-know:hover{
+    background-color: #fff;
+    color: #35858B;
+}
+.row{
+    width: 100%;
+}
+.logo-about img{
+    height: auto;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+    
+}
