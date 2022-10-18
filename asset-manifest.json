@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Veloxium/profile-web/static/css/main.fc7ccc42.css",
+    "main.js": "/Veloxium/profile-web/static/js/main.bdf1b9cf.js",
+    "static/js/787.b7af92ad.chunk.js": "/Veloxium/profile-web/static/js/787.b7af92ad.chunk.js",
+    "static/media/me.png": "/Veloxium/profile-web/static/media/me.fb62cc5471acd066d717.png",
+    "static/media/logo.png": "/Veloxium/profile-web/static/media/logo.b6056e5af0743e4fd3f9.png",
+    "static/media/logo2.png": "/Veloxium/profile-web/static/media/logo2.4537a04d1dc75fd67fe8.png",
+    "static/media/filetype-css.svg": "/Veloxium/profile-web/static/media/filetype-css.11d11943bbc9f20406ac55a74dcb27b8.svg",
+    "static/media/instagram.svg": "/Veloxium/profile-web/static/media/instagram.ae636fd096db625a8f353e26643f2872.svg",
+    "static/media/whatsapp.svg": "/Veloxium/profile-web/static/media/whatsapp.9adca63a42a6c01e5991c6ae7d108062.svg",
+    "static/media/github.svg": "/Veloxium/profile-web/static/media/github.8da7a71663d773eb44a0d47ae5e80d39.svg",
+    "index.html": "/Veloxium/profile-web/index.html",
+    "static/media/droplet.svg": "/Veloxium/profile-web/static/media/droplet.39e9588984976e8451eae762a180af63.svg",
+    "static/media/android.svg": "/Veloxium/profile-web/static/media/android.5a9ffd32030122da45346adbd2d9983d.svg",
+    "static/media/three-dots.svg": "/Veloxium/profile-web/static/media/three-dots.4698c533948a4d42609c42729e7ac728.svg",
+    "main.fc7ccc42.css.map": "/Veloxium/profile-web/static/css/main.fc7ccc42.css.map",
+    "main.bdf1b9cf.js.map": "/Veloxium/profile-web/static/js/main.bdf1b9cf.js.map",
+    "787.b7af92ad.chunk.js.map": "/Veloxium/profile-web/static/js/787.b7af92ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc7ccc42.css",
+    "static/js/main.bdf1b9cf.js"
+  ]
+}
