@@ -28,7 +28,7 @@ const About = () => {
         </Col>
         <Col lg={4}>
         <Card >
-            <Card.Body>
+            <Card.Body className='ui'>
               <img src={Drop} alt="ui" className="card-img"/>
               <Card.Title>UI DESIGN</Card.Title>
               <Card.Text>Saya suka sekali dalam hal men-desain, dan kenyamanan dalam hasil karya suatu desain adalah tujuan saya.</Card.Text>

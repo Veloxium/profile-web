@@ -14,10 +14,9 @@ const Project = () => {
     <div>
       <h1 className="judul-project">Featured Project</h1>
     </div>
-      <div>
       <Container>
         <Row className="project-card">
-          <Col lg={3} className="card-col">
+          <Col sm={4} className="card-col">
             <Card className="featured">
               <Card.Img className="imgcard" variant="top" src={Web}/>
               <Card.Body>
@@ -30,8 +29,8 @@ const Project = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col lg={3} className="card-col">
-          <Card className="featured">
+          <Col sm={4} className="card-col">
+            <Card className="featured">
               <Card.Img className="imgcard" variant="top" src={Web}/>
               <Card.Body>
                 <Card.Title>Project 2</Card.Title>
@@ -43,8 +42,8 @@ const Project = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col lg={3} className="card-col">
-          <Card className="featured">
+          <Col sm={4} className="card-col">
+            <Card className="featured">
               <Card.Img className="imgcard" variant="top" src={Web}/>
               <Card.Body>
                 <Card.Title>Project 3</Card.Title>
@@ -56,49 +55,9 @@ const Project = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col lg={3} className="card-col">
-          <Card className="featured">
-              <Card.Img className="imgcard" variant="top" src={Web}/>
-              <Card.Body>
-                <Card.Title>Project 4</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-                <Button className="button-card" href="">Link to Project</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col lg={3} className="card-col">
-          <Card className="featured">
-              <Card.Img className="imgcard" variant="top" src={Web}/>
-              <Card.Body>
-                <Card.Title>Project 5</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-                <Button className="button-card" href="">Link to Project</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col lg={3} className="card-col">
-          <Card className="featured">
-              <Card.Img className="imgcard" variant="top" src={Web}/>
-              <Card.Body>
-                <Card.Title>Project 6</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-                <Button className="button-card" href="">Link to Project</Button>
-              </Card.Body>
-            </Card>
-          </Col>
         </Row>
         <img src={Dots} alt="dot" className="dots" />
       </Container>
-      </div>
       </div>
   );
 };

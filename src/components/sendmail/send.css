@@ -138,3 +138,8 @@
 .icon:hover{
     fill: #0B333A;
 }
+.row{
+    justify-content: center;
+    align-items: center;
+}
+

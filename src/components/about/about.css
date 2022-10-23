@@ -11,13 +11,14 @@
     letter-spacing: 0.2em;
     font-weight: 700;
     color: #f2f2f2;
-    padding-top: 100px;
-    padding-left: 111px;
+    padding-top: 50px;
+    text-align: center;
     position: relative;
     float:inline-start;
+    margin-bottom: 30px;
 }
 .card-img{
-    height: 200px;
+    height: 150px;
     margin-top: 20px;
     margin-bottom: 20px;
     fill: #f2f2f2 ;
@@ -54,9 +55,7 @@
     padding-bottom: 30px;
     display: block;
     margin-top: 70px;
-    margin-bottom: 20px;
     background-color:  #0B333A;
- 
 }
 .button-know{
     margin-top: 10px;
@@ -80,6 +79,13 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    
-    
+}
+.ui{
+    background-color: #f2f2f2;
+}
+.ui .card-title{
+    color: #135D6B;
+}
+.ui .card-text{
+    color: #135D6B;
 }

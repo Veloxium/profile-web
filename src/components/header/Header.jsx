@@ -12,10 +12,10 @@ const Header = () => {
         <Container>
           <Navbar.Brand href="#home"><img src={Logo} alt="logo" className='logo' /></Navbar.Brand>
           <Nav className="ms-auto menu">
-            <Nav.Link href="#home" className="list">HOME</Nav.Link>
-            <Nav.Link href="#about" className="list">ABOUT</Nav.Link>
+            <Nav.Link href="#home" className="list" active>HOME</Nav.Link>
+            {/* <Nav.Link href="#about" className="list">ABOUT</Nav.Link>
             <Nav.Link href="#project" className="list">PROJECT</Nav.Link>
-            <Nav.Link href="#contact" className="list">CONTACT</Nav.Link>
+            <Nav.Link href="#contact" className="list">CONTACT</Nav.Link> */}
           </Nav>
         </Container>
       </Navbar>
