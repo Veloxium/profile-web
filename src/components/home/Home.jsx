@@ -8,6 +8,7 @@ import Button from "react-bootstrap/Button";
 import Wa from './whatsapp.svg';
 import Ig from './instagram.svg';
 import Github from './github.svg';
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -19,10 +20,10 @@ const Home = () => {
               <a href="https://www.instagram.com/mchfrnnda_">
                 <img className="icon" src={Ig} alt="instagram" />
               </a>
-              <a href="#">
+              <a href="https://wa.link/38kfeb">
                 <img className="icon" src={Wa} alt="whatsapp" />
               </a>
-              <a href="#">
+              <a href="https://github.com/Veloxium">
                 <img className="icon" src={Github} alt="github" />
               </a>
             </div>
@@ -40,9 +41,9 @@ const Home = () => {
                 sangat menyenangkan. Mari bekerja sama dalam project website dan
                 app mobile anda berikutnya!
               </p>
-              <Button href="#" className="button">
+              <Link to="/me"><Button className="button">
                 ABOUT ME
-              </Button>
+              </Button></Link>
             </div>
           </Col>
         </Row>

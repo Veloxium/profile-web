@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from './logo.png'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -12,7 +13,7 @@ const Header = () => {
         <Container>
           <Navbar.Brand href="#home"><img src={Logo} alt="logo" className='logo' /></Navbar.Brand>
           <Nav className="ms-auto menu">
-            <Nav.Link href="#home" className="list" active>HOME</Nav.Link>
+            <Link to="/profile-web" className="list" active>HOME</Link>
             {/* <Nav.Link href="#about" className="list">ABOUT</Nav.Link>
             <Nav.Link href="#project" className="list">PROJECT</Nav.Link>
             <Nav.Link href="#contact" className="list">CONTACT</Nav.Link> */}

@@ -19,5 +19,9 @@
     height: auto;
 }
 .list:hover{
+    color: #35858B;
+}
+.list {
+    text-decoration: none;
     color: #fff;
 }

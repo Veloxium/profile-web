@@ -10,6 +10,7 @@ import Android from './android.svg';
 import Button from 'react-bootstrap/esm/Button';
 import './Transition.js';
 import './transition.css';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -46,21 +47,13 @@ const About = () => {
         </Col>
         </Row>
       </Container>
-      <Row>
-      <Col md={6}>
       <div  className="exp">
         <h1>
           <span>5</span>
           <br />Months Experience
         </h1>
-        <Button href="#" className="button-know">KNOW MORE</Button>
+        <Link to="/project"><Button className="button-know">KNOW MORE</Button></Link>
       </div>
-      </Col>
-      <Col md={6}>
-        <div >
-        </div>
-      </Col>
-      </Row>
     </div>
   )
 }

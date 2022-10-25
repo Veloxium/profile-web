@@ -1,0 +1,44 @@
+.imgpos-me{
+    height: 100%;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.load h5{
+    color: #35858B;
+    background-color: #f2f2f2;
+    display: inline-block;
+    padding: 0px 5px ;
+    border-radius: 5px;
+}
+.load .flex{    
+    margin-top: 15px;
+}
+.biodata{
+    color: #f2f2f2;
+}
+.biodata::before{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+    border-bottom: 7px solid #35858B;
+    width: 100%;
+    border-radius: 25px;
+    content: "";
+}
+p span{
+    color: #35858B;
+    background-color: #f2f2f2;
+    display: inline-block;
+    padding: 0px 3px ;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.load h6{
+    margin-top: 10px;
+    display: block;
+    float: right;
+    color: #f2f2f2;
+}
+.biodata p{
+    margin-top: 30px;
+}

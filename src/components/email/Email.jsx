@@ -5,6 +5,7 @@ import './email.css'
 import Logo2 from './logo2.png'
 import Button from 'react-bootstrap/esm/Button'
 import Container from 'react-bootstrap/esm/Container'
+import { Link } from 'react-router-dom'
 
 const Email = () => {
   return (
@@ -18,7 +19,7 @@ const Email = () => {
                 <Col lg={7} className='teks-email'>
                     <h1>Let’s work together on your next project</h1>
                     <h5>Mari membuat website Anda menjadi lebih keren dan nyaman bagi user, mari bekerja sama !</h5>
-                    <Button href="#" className="button-email">CONTACT ME</Button>
+                    <Link to="/contact"><Button href="/contact" className="button-email">CONTACT ME</Button></Link>
                 </Col>
             </Row>
             </Container>

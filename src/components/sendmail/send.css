@@ -36,6 +36,7 @@
     padding: 20px;
     border-color: #35858B;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .kolom h1{
@@ -43,7 +44,7 @@
     font-weight: 700;
     color: #f2f2f2;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -85,9 +86,11 @@
     margin-top: 20px;
     margin-bottom: 5px;
 }
-.kolom{
- margin-left: auto;
+.contact{
+background-color: #0B333A;
+height: 100%;
 }
+
 .email-teks{
     margin: auto;
     color: #f2f2f2;

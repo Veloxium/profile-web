@@ -56,6 +56,7 @@
     display: block;
     margin-top: 70px;
     background-color:  #0B333A;
+    width: 100%;
 }
 .button-know{
     margin-top: 10px;
@@ -81,7 +82,7 @@
     display: block;
 }
 .ui{
-    background-color: #f2f2f2;
+    background-color: #f2f2f2 !important;
 }
 .ui .card-title{
     color: #135D6B;
