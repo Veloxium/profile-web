@@ -51,15 +51,15 @@ const Me = () => {
               <div className="load">
                 <div className="flex">
                   <h5>HTML</h5>
-                  <ProgressBar striped variant="danger" now={80} />
+                  <ProgressBar striped variant="html" now={80} />
                 </div>
                 <div className="flex">
                   <h5>JAVA</h5>
-                  <ProgressBar striped variant="success" now={40} />{" "}
+                  <ProgressBar striped variant="java" now={40} />{" "}
                 </div>
                 <div className="flex">
                   <h5>CSS</h5>
-                  <ProgressBar striped variant="warning" now={60} />{" "}
+                  <ProgressBar striped variant="css" now={60} />{" "}
                 </div>
                 <h6>progress on learning</h6>
               </div>

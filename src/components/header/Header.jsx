@@ -11,7 +11,7 @@ const Header = () => {
     <div>
     <Navbar bg="custom" variant="dark" className="nav">
         <Container>
-          <Navbar.Brand href="#home"><img src={Logo} alt="logo" className='logo' /></Navbar.Brand>
+          <Link to="/profile-web"><Navbar.Brand ><img src={Logo} alt="logo" className='logo' /></Navbar.Brand></Link>
           <Nav className="ms-auto menu">
             <Link to="/profile-web" className="list" active>HOME</Link>
             {/* <Nav.Link href="#about" className="list">ABOUT</Nav.Link>

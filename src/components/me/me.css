@@ -42,3 +42,12 @@ p span{
 .biodata p{
     margin-top: 30px;
 }
+.bg-html{
+    background-color: #F23557!important;
+}
+.bg-java{
+    background-color: #F0D43A!important;
+}
+.bg-css{
+    background-color: #22B2DA!important;
+}
