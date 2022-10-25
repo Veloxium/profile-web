@@ -1,16 +1,22 @@
 import "./me.css";
 import "../home/home.css";
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col ,Button} from "react-bootstrap";
 import Wa from "../home/whatsapp.svg";
 import Ig from "../home/instagram.svg";
 import Github from "../home/github.svg";
 import Meimg from "../home/me.png";
 import ProgressBar from "react-bootstrap/ProgressBar";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Me = () => {
   return (
-    <div className="home">
+    <motion.div
+    initial={{ width: 0}}
+    animate={{ width: "100%"}}
+    exit={{ x:window.innerWidth ,transition : {duration : 0.3}}}
+    className="home">
       <Container>
         <Row>
           <Col md={6}>
@@ -61,13 +67,18 @@ const Me = () => {
                   <h5>CSS</h5>
                   <ProgressBar striped variant="css" now={60} />{" "}
                 </div>
+                <div className="kanan">
                 <h6>progress on learning</h6>
+                <Link to="/profile-web"><Button className="button-me">
+                Back
+              </Button></Link>
+              </div>
               </div>
             </div>
           </Col>
         </Row>
       </Container>
-    </div>
+    </motion.div>
   );
 };
 

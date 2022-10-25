@@ -32,9 +32,13 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-img.dots{
+.project-card .dots{
    display: block;
    justify-content: center;
    margin-left: auto;
    margin-right: auto;
+   width: 70px;
+}
+.bawah{
+    margin-bottom: 20px;
 }

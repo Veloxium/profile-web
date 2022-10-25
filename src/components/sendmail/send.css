@@ -100,7 +100,7 @@ height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 .email-teks h2::after{

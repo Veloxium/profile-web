@@ -4,10 +4,16 @@ import { Container, Col, Row,} from "react-bootstrap";
 import Ig from "./instagram.svg";
 import Wa from "./whatsapp.svg";
 import Github from "./github.svg";
+import { motion } from "framer-motion";
+
 
 const Send = () => {
   return (
-    <div className="send">
+    <motion.div
+    initial={{ width : 0}}
+        animate={{width : "100%"}}
+        exit={{ x:"-100%" ,transition : {duration : 0.3}}}
+    className="send">
       <Container>
         <Row>
           <Col md={6}>
@@ -40,7 +46,7 @@ const Send = () => {
           </Col>
         </Row>
       </Container>
-    </div>
+    </motion.div>
   );
 };
 

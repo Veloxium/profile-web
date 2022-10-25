@@ -9,10 +9,15 @@ import Wa from './whatsapp.svg';
 import Ig from './instagram.svg';
 import Github from './github.svg';
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className="home">
+    <motion.div
+    initial={{ width : "100%"}}
+        animate={{width : "100%"}}
+        exit={{ x:"-100%" ,transition : {duration : 0.3}}}
+    className="home">
       <Container>
         <Row>
           <Col md={6}>
@@ -48,7 +53,7 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-    </div>
+    </motion.div>
   );
 };
 

@@ -7,10 +7,16 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Web from "./imgweb.png";
 import Dots from "./three-dots.svg"
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
-    <div className="project">
+    <motion.div
+    initial={{ width: 0}}
+    animate={{ width: "100%"}}
+    exit={{ opacity : 0 ,transition : {duration : 0.3}}}
+    className="project">
     <div>
       <h1 className="judul-project">Featured Project</h1>
     </div>
@@ -55,10 +61,14 @@ const Project = () => {
               </Card.Body>
             </Card>
           </Col>
+          <img src={Dots} alt="dot" className="dots" />
+          <Link to="/profile-web"><Button className="button-me kanan bawah">
+                Back
+              </Button></Link>
         </Row>
-        <img src={Dots} alt="dot" className="dots" />
+        
       </Container>
-      </div>
+      </motion.div>
   );
 };
 

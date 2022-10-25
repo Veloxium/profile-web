@@ -6,10 +6,15 @@ import Logo2 from './logo2.png'
 import Button from 'react-bootstrap/esm/Button'
 import Container from 'react-bootstrap/esm/Container'
 import { Link } from 'react-router-dom'
+import { motion } from "framer-motion";
 
 const Email = () => {
   return (
-    <div className="email">
+    <motion.div
+    initial={{ width : 0}}
+    animate={{width : "100%"}}
+    exit={{ x:"-100%" ,transition : {duration : 0.3}}}
+     className="email">
         <div className="bar">
             <Container>
             <Row>
@@ -24,7 +29,7 @@ const Email = () => {
             </Row>
             </Container>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

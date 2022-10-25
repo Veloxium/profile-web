@@ -35,8 +35,6 @@ p span{
 }
 .load h6{
     margin-top: 10px;
-    display: block;
-    float: right;
     color: #f2f2f2;
 }
 .biodata p{
@@ -50,4 +48,21 @@ p span{
 }
 .bg-css{
     background-color: #22B2DA!important;
+}
+.button-me{
+    background: #35858B;
+    color: #f2f2f2;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.button-me:hover{
+    background-color: #fff;
+    color: #35858B;
+}
+.kanan{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-items: flex-end;
 }
