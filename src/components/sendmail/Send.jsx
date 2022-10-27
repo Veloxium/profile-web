@@ -12,7 +12,7 @@ const Send = () => {
     <motion.div
     initial={{ width : 0}}
         animate={{width : "100%"}}
-        exit={{ x:"-100%" ,transition : {duration : 0.3}}}
+        exit={{ opacity: 0, transition: { duration: 0.5 } }}
     className="send">
       <Container>
         <Row>

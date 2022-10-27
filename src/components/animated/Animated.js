@@ -18,7 +18,7 @@ const Animated = () => {
          <Routes location={location} key={location.pathname}>
             <Route exact path="/profile-web" element={<><Home /><About /><Email /><Send /></>}/>
             <Route path="/me" element={<Me />} />
-            <Route path="/contact" element={<ContactDuplikat />} />
+            <Route path="/contact" element={<><ContactDuplikat /><Send /></>} />
             <Route path="/project" element={<Project />} />
         </Routes>
     </AnimatePresence>
