@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div
-      className="footer"
+      className="footer" fixed="bottom"
     >
       <p>Copyright © 2022. Veloxium. All Right Reserved.</p>
     </div>
