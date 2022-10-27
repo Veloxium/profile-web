@@ -5,5 +5,7 @@
     color: #fff;
     background-color: #072227;
     padding: 30px;
-    position: relative;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
 }
