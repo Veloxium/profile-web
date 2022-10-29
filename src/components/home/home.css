@@ -29,7 +29,8 @@ img.me{
     position: relative;
 }
 h1.judulbesar{
-    font-size: 60px;
+    min-width: 100%;
+    font-size: 300%;
     font-weight: 700;
     color: #f2f2f2;
     position: relative;
