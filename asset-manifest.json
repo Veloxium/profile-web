@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/profile-web/static/css/main.eaf820bc.css",
-    "main.js": "/profile-web/static/js/main.e812459c.js",
+    "main.js": "/profile-web/static/js/main.3107171e.js",
     "static/js/787.b7af92ad.chunk.js": "/profile-web/static/js/787.b7af92ad.chunk.js",
     "static/media/me.png": "/profile-web/static/media/me.fb62cc5471acd066d717.png",
+    "static/media/logo2.png": "/profile-web/static/media/logo2.cf176707d4cd1c203ab4.png",
     "static/media/logo.png": "/profile-web/static/media/logo.b6056e5af0743e4fd3f9.png",
-    "static/media/logo2.png": "/profile-web/static/media/logo2.4537a04d1dc75fd67fe8.png",
     "static/media/filetype-css.svg": "/profile-web/static/media/filetype-css.11d11943bbc9f20406ac55a74dcb27b8.svg",
     "static/media/instagram.svg": "/profile-web/static/media/instagram.ae636fd096db625a8f353e26643f2872.svg",
     "static/media/whatsapp.svg": "/profile-web/static/media/whatsapp.c5417e4e30b99aeeecf97c7810e68dc9.svg",
@@ -15,11 +15,11 @@
     "static/media/android.svg": "/profile-web/static/media/android.5a9ffd32030122da45346adbd2d9983d.svg",
     "static/media/three-dots.svg": "/profile-web/static/media/three-dots.4698c533948a4d42609c42729e7ac728.svg",
     "main.eaf820bc.css.map": "/profile-web/static/css/main.eaf820bc.css.map",
-    "main.e812459c.js.map": "/profile-web/static/js/main.e812459c.js.map",
+    "main.3107171e.js.map": "/profile-web/static/js/main.3107171e.js.map",
     "787.b7af92ad.chunk.js.map": "/profile-web/static/js/787.b7af92ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eaf820bc.css",
-    "static/js/main.e812459c.js"
+    "static/js/main.3107171e.js"
   ]
 }
